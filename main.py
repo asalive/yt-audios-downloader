@@ -28,8 +28,6 @@ def download_audios(video_url):
                 and i.get('resolution') == 'audio only'
                 and i.get('quality') == 3.0
             ]
-            for audio in audios:
-                print(audio['resolution'])
 
     save_to = os.path.join(os.getcwd(), video_id)
 
