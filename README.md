@@ -7,6 +7,21 @@
 
 ## Использование
 
+### С помощью .exe
+
+Скачать файл: [ссылка](https://drive.google.com/drive/folders/1ASo6Mw_xwV_tCMnyDJLrLGhhNDvWrYDJ)
+
+Открыть командую строку, перейти в папку расположения файла и запустить:
+
+```bash
+.\yt.exe <Ссылка на видео>
+
+# Например
+.\yt.exe https://youtube.com/watch?v=MY5SatbZMAo
+```
+
+### Напрямую
+
 Запустить скрипт, передав ссылку на видео в любом формате:
 
 ```bash
